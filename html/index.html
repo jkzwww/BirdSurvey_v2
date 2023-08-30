@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css?v=201808300902" />
+        <script src="/libs/qimessaging/2/qimessaging.js"></script>
+        <script src="javascripts/polyfill.js"></script>
+        <script>
+        window.addEventListener("error", handleError, true);
+        function handleError(evt) {
+            if (evt.message) { // Chrome sometimes provides this
+                alert("error: "+evt.message +" at linenumber: "+evt.lineno+" of file: "+evt.filename);
+            } else {
+                alert("error: "+evt.type+" from element: "+(evt.srcElement || evt.target));
+            }
+        }
+        </script>
+    </head>
+
+    <body>
+        <div class="content">
+        <form method="post" autocomplete="off" novalidate>
+            <div class="survey-group">
+                 
+                <!-- Main screen with explanation & start button -->
+                 <div id="start" class="survey-box" data-show-dialog>
+                    <img src="styles/images/ybBird.png" alt="two birds" height="180">
+                   
+                    <h1 data-ignore >Share your avian encounters on Monash campus!</h1>
+
+                    <h2>A simple survey to be done within 3 minutes!</h2>
+
+                    <p>
+                        Your inputs will contribute to citizen science, <br>
+                        enhancing understanding of local bird populations and <br>
+                        supporting future conservation efforts on Monash campus!
+                    </p>
+
+                    <button type="button" class="btn-navigate roundBtn" id="goBtn" onclick="resetBird();waitRestart(0);" data-next="1">GO</button>
+            
+                </div>
+                
+                <!-- Bird sighting selection screen -->
+                <div id="1" class="survey-box" data-show-dialog>
+                    
+                    <h1 data-animated class="hidden">Which birds have you seen on campus lately? ^run(animations/Stand/Gestures/Wings_4)</h1>
+                    <h2>Select all the birds you have seen in Monash below: </h2> 
+                    
+                    <ul>
+                        <li><input type="checkbox" name="birdSeen" id="cb0" value="0" />
+                            <label for="cb0"><img src="styles/images/magpie.jpg" title="Australian Magpie"/><br>Magpie</label>
+                        </li>
+                        <li><input type="checkbox" name="birdSeen" id="cb1" value="1" />
+                            <label for="cb1"><img src="styles/images/lorikeet.jpg" title="Rainbow Lorikeet"/><br>Lorikeet</label>
+                        </li>
+                        <li><input type="checkbox" name="birdSeen" id="cb2" value="2" />
+                            <label for="cb2"><img src="styles/images/cockatoo.jpg" title="Sulphur-crested Cockatoo"/><br>Cockatoo</label>
+                        </li>
+                        <li><input type="checkbox" name="birdSeen" id="cb3" value="3" />
+                            <label for="cb3"><img src="styles/images/miner.jpg" title="Noisy Miner"/><br>Miner</label>
+                        </li>
+                        <br>
+                        <li><input type="checkbox" name="birdSeen" id="cb4" value="4" />
+                            <label for="cb4"><img src="styles/images/galah.jpg" title="Galah"/><br>Galah</label>
+                        </li>
+                        <li><input type="checkbox" name="birdSeen" id="cb5" value="5" />
+                            <label for="cb5"><img src="styles/images/wattlebird.jpg" title="Red Wattlebird"/><br>Wattlebird</label>
+                        </li>
+                        <li><input type="checkbox" name="birdSeen" id="cb6" value="6" />
+                            <label for="cb6"><img src="styles/images/honeyeater.jpg" title="White-plumed Honeyeater"/><br>Honeyeater</label>
+                        </li>
+                        <li><input type="checkbox" name="birdSeen" id="cb7" value="7" />
+                            <label for="cb7"><img src="styles/images/currawong.jpg" title="Pied Currawong"/><br>Currawong</label>
+                        </li>
+                    </ul>
+                    
+                    
+                    <button type="button" class="btn-navigate" id="confirmBtn" onclick="recordReact(true);stopRestart();waitRestart(1);" data-next="2">confirm</button>
+                    <button type="button" class="btn-navigate" onclick="recordReact(false);postData();stopRestart();" data-next="start">cancel</button>      
+                    
+                    <button type="button" class="btn-navigate hidden autoEndBtn" onclick="" data-next="start">End</button> 
+                    <!-- endBtn0 -->
+                </div>
+                
+                <!-- Sighted timing selection screen -->
+                <div id="2" class="survey-box" data-show-dialog>
+
+                    <h1 data-animated class="hidden">How long ago were your encounters with the birds? ^run(Stand/Emotions/Positive/Happy_4)</h1>
+                    <h2>Select an approximate timing where you seen the birds: </h2> 
+
+                    <div id="birdList"> 
+                        <!-- to be populated by js -->
+                    </div>        
+
+                    <button type="button" class="btn-navigate" id="submitBtn" onclick="stopRestart();waitRestart(2);" data-next="3" >submit</button>
+                    
+                    <button type="button" class="btn-navigate hidden autoEndBtn" data-next="start"></button>
+                    <!-- endBtn1 -->
+                </div>
+
+               <!-- Bird information screen -->
+                <div id="3" class="survey-box" data-show-dialog>
+                    
+                    <div id="serverDebug"></div>
+
+                    <h1 data-animated class="hidden">Hooray!More birds to our collection!
+                        Let me show you some interesting facts! ^run(animations/Stand/Emotions/Positive/Excited_1)</h1>
+                    <h1>Do you know that...</h1>
+                    
+                    <div id="birdInfo"> 
+                        <!-- to be populated by js -->
+                    </div>
+
+                    <button type="button" class="btn-navigate" onclick="stopRestart();waitRestart(3);" data-next="4">Next</button>
+
+                    <button type="button" class="btn-navigate hidden autoEndBtn" data-next="start"></button>
+                    <!-- endBtn2 -->
+                </div>
+                    
+                <!-- Bird statistics screen -->
+                <div id="4" class="survey-box" data-show-dialog>
+
+                    <h1 data-animated class="hidden"> Let me show you a summary of birds sightings on campus! ^run(animations/Stand/Gestures/ShowTablet_1)</h1>
+                    <h1>Birds in Monash</h1>
+
+                    <img src="styles/images/bird_stats_vis.jpg" alt="birds sighting summary" height="70%">
+                   
+                    <button type="button" class="btn-navigate" onclick="stopRestart();" data-next="end">End</button>
+
+                    <button type="button" class="btn-navigate hidden autoEndBtn" data-next="start"></button>
+                    <!-- endBtn3 -->
+                </div>
+
+                <!--Ending page-->
+                <!--Restart flow-->
+                <div id="end" class="survey-box" data-show-dialog>
+                    
+                    <h1 data-animated data-auto-transition class="hidden">Thank you for your time! ^run(animations/Stand/Gestures/BowShort_2)</h1>
+                  
+                    <button type="button" class="btn-navigate hidden" data-next="start">Restart</button>
+                </div>
+
+
+
+            <div class="popup">
+                <span class="popuptext" id="invalid-popup"><span style="color: red">&#10071;</span> <span id="invalid-message"></span></span>
+            </div>
+
+        </form>
+        </div>
+        <script src="javascripts/main.js?v=201808300902"></script>
+        <script src="javascripts/surv_func.js"></script>
+    </body>
+</html>
