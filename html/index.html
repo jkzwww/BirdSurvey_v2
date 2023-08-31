@@ -75,7 +75,8 @@
                     
                     <button type="button" class="btn-navigate" id="confirmBtn" onclick="recordReact(true);stopRestart();waitRestart(1);" data-next="2">confirm</button>
                     <button type="button" class="btn-navigate" onclick="recordReact(false);postData();stopRestart();" data-next="start">cancel</button>      
-                    
+                    <br>
+                    <button type="button" class="btn-navigate" id="noBirdBtn" onclick="recordReact(true);stopRestart();waitRestart(4);" data-next="3a">I didn't see any of these birds.</button>
                     <button type="button" class="btn-navigate hidden autoEndBtn" onclick="" data-next="start">End</button> 
                     <!-- endBtn0 -->
                 </div>
@@ -109,11 +110,31 @@
                         <!-- to be populated by js -->
                     </div>
 
-                    <button type="button" class="btn-navigate" onclick="stopRestart();waitRestart(3);" data-next="4">Next</button>
+                    <button type="button" class="btn-navigate" onclick="stopRestart();waitRestart(4);" data-next="4">Next</button>
 
                     <button type="button" class="btn-navigate hidden autoEndBtn" data-next="start"></button>
                     <!-- endBtn2 -->
                 </div>
+
+                
+               <!-- Bird information screen -->
+               <div id="3a" class="survey-box" data-show-dialog>
+                    
+                <h1 data-animated class="hidden">It's okay!
+                    Let me show you some interesting facts about these birds! ^run(animations/Stand/Emotions/Positive/Excited_1)</h1>
+                <h1>Do you know that...</h1>
+                
+                <div id="birdInfo2"> 
+                    <!-- to be populated by js -->
+
+                </div>
+
+                <button type="button" class="btn-navigate" onclick="stopRestart();waitRestart(4);" data-next="4">Next</button>
+
+                <button type="button" class="btn-navigate hidden autoEndBtn" data-next="start"></button>
+                <!-- endBtn3 -->
+                </div>
+                
                     
                 <!-- Bird statistics screen -->
                 <div id="4" class="survey-box" data-show-dialog>
@@ -126,7 +147,7 @@
                     <button type="button" class="btn-navigate" onclick="stopRestart();" data-next="end">End</button>
 
                     <button type="button" class="btn-navigate hidden autoEndBtn" data-next="start"></button>
-                    <!-- endBtn3 -->
+                    <!-- endBtn4 -->
                 </div>
 
                 <!--Ending page-->

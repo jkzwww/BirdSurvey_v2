@@ -138,7 +138,6 @@ submitBtn.addEventListener("click",recordTiming);
 submitBtn.addEventListener("click",postData);
 submitBtn.addEventListener("click",tellBird);
 
-
 // Record the timing of birds sighted
 function recordTiming(){
 
@@ -161,13 +160,24 @@ const bird_data_facts1 = ["can sing complex tunes and mimic human speech!","are 
 const bird_data_facts2 = ["will dive-bomb you to guard their nests!","feed on nectar,pollen and fruits majorly instead of worms!","can live up to 70 years and form livelong bonds!","aggresively attack other birds to defend territory!",
 "perform sky-pointing displays during courtship rituals!","fiercely protect feeding and nesting areas with aggresive behaviours!","follow flowering patterns and migrate in search of nectar-rich plants!","uses sticks to extract inserts from tree barks!"];
 
+const noBirdBtn = document.querySelector("#noBirdBtn");
+noBirdBtn.addEventListener("click",postData);
+noBirdBtn.addEventListener("click",tellBird);
 
 // Tell facts on chosen bird
 function tellBird()
 {
-    chosenBirbIdx = birbIdx[0];
-    console.log(birbNames[chosenBirbIdx])
-    var birdInfoDiv = document.getElementById('birdInfo');
+    if(birbIdx.length == 0)
+    {
+        chosenBirbIdx = Math.floor(Math.random() * 7); 
+        var birdInfoDiv = document.getElementById('birdInfo2');
+    }
+    else{
+        chosenBirbIdx = birbIdx[0];    
+        console.log(birbNames[chosenBirbIdx])
+        var birdInfoDiv = document.getElementById('birdInfo');
+    }
+   
 
     var name_str = bird_data_names[chosenBirbIdx] 
     var img_src = "styles/images/" + birbNames[chosenBirbIdx] + ".jpg"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Package name="Survey" format_version="4">
+<Package name="BirdSurvey" format_version="4">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
@@ -35,6 +35,7 @@
         <File name="sparrow" src="html/styles/images/sparrow.jpg" />
         <File name="wattlebird" src="html/styles/images/wattlebird.jpg" />
         <File name="ybBird" src="html/styles/images/ybBird.png" />
+        <File name="loading_birds" src="html/loading_birds.jpg" />
     </Resources>
     <Topics />
     <IgnoredPaths />

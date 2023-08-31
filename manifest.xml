@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.1.0" uuid="survey-fe0cac">
+<package uuid="birdsurvey-445d86" version="0.1.0">
  <names>
   <name lang="en_US">Bird Survey v2</name>
  </names>
@@ -20,7 +20,7 @@
   </behaviorContent>
  </contents>
  <requirements>
-  <naoqiRequirement minVersion="2.5" maxVersion="2.5"/>
+  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
   <robotRequirement model="JULIETTE"/>
  </requirements>
 </package>

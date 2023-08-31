@@ -108,20 +108,10 @@ button:hover {
   background-color: #c7817b;
 }
 
-/* emoji buttons */
-.feedbackBtnGroup{
-  padding: 80px 0;
-  width: 100%;
+#noBirdBtn{
+  font-size: 15pt;
+  background-color: lightskyblue;
 }
-
-.emojiBtn{
-  width: 120px;
-  height: 120px;
-  background-color: #f7cc67;
-  background-size: cover;
-  background-position: center center; 
-}
-
 
 /* Popup container - can be anything you want */
 .popup {
