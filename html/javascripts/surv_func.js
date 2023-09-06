@@ -209,7 +209,7 @@ function postData()
         participant_resp,
         birbIdx,
         birbTime,
-        'creditability'
+        'logical'
     ];
     
     var data_formatted = participantData.join(",");

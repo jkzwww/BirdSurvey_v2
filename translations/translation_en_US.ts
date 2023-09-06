@@ -158,9 +158,10 @@ such as IPCC, are telling us how urgent it is to fight climate change,</source>
 such as IPCC, are telling us how urgent it is to fight climate change,</translation>
         </message>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source> Hello there, may I have a moment with you? </source>
             <comment>Text</comment>
-            <translation type="obsolete"> Hello there, may I have a moment with you? </translation>
+            <translation type="unfinished"> Hello there, may I have a moment with you? </translation>
         </message>
         <message>
             <source>Have you heard about climate change issues from anyone around you?</source>
@@ -173,10 +174,16 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <translation type="obsolete">Hello there</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello there, organisations like E Bird, has received millions of bird records from people,</source>
             <comment>Text</comment>
-            <translation type="unfinished">Hello there, organisations like E Bird, has received millions of bird records from people,</translation>
+            <translation type="obsolete">Hello there, organisations like E Bird, has received millions of bird records from people,</translation>
+        </message>
+        <message>
+            <source>Hello there, your bird sightings hold huge power,
+</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello there, your bird sightings hold huge power,
+</translation>
         </message>
     </context>
     <context>
@@ -186,6 +193,21 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <comment>Text</comment>
             <translation type="obsolete">Hello! It's nice to see you on the campus today. I'd like to ask you a quick question about picking up rubbish. Feel free to not answer.</translation>
         </message>
+        <message>
+            <source>Of course, feel free to say no.
+</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Of course, feel free to say no.
+</translation>
+        </message>
+        <message>
+            <source>Hello there, can you tell me about any birds that you saw on campus, through this survey? </source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello there, can you tell me about any birds that you saw on campus, through this survey? </translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Animated Say (2)</name>
         <message>
             <source>Of course, feel free to say no.
 </source>
@@ -262,10 +284,16 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <translation type="obsolete">So join the fight now!</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>this is crucial to produce population trends, and identify vulnerable species. </source>
             <comment>Text</comment>
-            <translation type="unfinished">this is crucial to produce population trends, and identify vulnerable species. </translation>
+            <translation type="obsolete">this is crucial to produce population trends, and identify vulnerable species. </translation>
+        </message>
+        <message>
+            <source> to help researchers to generate population trends and reservation effort! 
+</source>
+            <comment>Text</comment>
+            <translation type="obsolete"> to help researchers to generate population trends and reservation effort! 
+</translation>
         </message>
     </context>
     <context>
@@ -296,10 +324,14 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <translation type="obsolete">Let me amplify your voice through this petition!</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>So join our bird sighting survey now!</source>
             <comment>Text</comment>
-            <translation type="unfinished">So join our bird sighting survey now!</translation>
+            <translation type="obsolete">So join our bird sighting survey now!</translation>
+        </message>
+        <message>
+            <source>Share your observations through this survey now!</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Share your observations through this survey now!</translation>
         </message>
     </context>
     <context>
@@ -325,7 +357,7 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/behavior_1/behavior.xar" line="0"/>
+            <location filename="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Program Files (x86)/Softbank Robotics/Choregraphe Suite 2.5/translations/behavior_1/behavior.xar" line="0"/>
             <source></source>
             <comment>Text</comment>
             <translation></translation>
@@ -384,9 +416,10 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <translation type="obsolete">Hello there, may I have your attention for a second to read a poster?</translation>
         </message>
         <message>
+            <location filename="consistency/behavior.xar" line="0"/>
             <source> Hello there, may I have a moment with you? </source>
             <comment>Text</comment>
-            <translation type="obsolete"> Hello there, may I have a moment with you? </translation>
+            <translation type="unfinished"> Hello there, may I have a moment with you? </translation>
         </message>
     </context>
     <context>
@@ -491,6 +524,12 @@ such as IPCC, are telling us how urgent it is to fight climate change,</source>
             <translation type="obsolete">Hello there, thousands of scientists and environmental organisations,
 such as IPCC, are telling us how urgent it is to fight climate change,</translation>
         </message>
+        <message>
+            <location filename="creditability/behavior.xar" line="0"/>
+            <source>Hello there, organisations like E Bird, has received millions of bird records from people,</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hello there, organisations like E Bird, has received millions of bird records from people,</translation>
+        </message>
     </context>
     <context>
         <name>creditability/behavior.xar:/Say</name>
@@ -527,6 +566,12 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <source>So join the fight now!</source>
             <comment>Text</comment>
             <translation type="obsolete">So join the fight now!</translation>
+        </message>
+        <message>
+            <location filename="creditability/behavior.xar" line="0"/>
+            <source>this is crucial to produce population trends, and identify vulnerable species. </source>
+            <comment>Text</comment>
+            <translation type="unfinished">this is crucial to produce population trends, and identify vulnerable species. </translation>
         </message>
     </context>
     <context>
@@ -572,6 +617,12 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <comment>Text</comment>
             <translation type="obsolete">Let us amplify your voice through this petition!</translation>
         </message>
+        <message>
+            <location filename="creditability/behavior.xar" line="0"/>
+            <source>So join our bird sighting survey now!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">So join our bird sighting survey now!</translation>
+        </message>
     </context>
     <context>
         <name>freedom/behavior.xar:/Animated Say</name>
@@ -590,14 +641,21 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <comment>Text</comment>
             <translation type="obsolete">Hello there, may I have your support to fight climate change through a petition?</translation>
         </message>
+        <message>
+            <location filename="freedom/behavior.xar" line="0"/>
+            <source>Hello there, can you tell me about any birds that you saw on campus, through this survey? </source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hello there, can you tell me about any birds that you saw on campus, through this survey? </translation>
+        </message>
     </context>
     <context>
         <name>freedom/behavior.xar:/Animated Say (1)</name>
         <message>
+            <location filename="freedom/behavior.xar" line="0"/>
             <source>Of course, feel free to say no.
 </source>
             <comment>Text</comment>
-            <translation type="obsolete">Of course, feel free to say no.
+            <translation type="unfinished">Of course, feel free to say no.
 </translation>
         </message>
     </context>
@@ -607,6 +665,11 @@ such as IPCC, are telling us how urgent it is to fight climate change,</translat
             <source>Hello there, may I have your support to fight climate change through a petition?</source>
             <comment>Text</comment>
             <translation type="obsolete">Hello there, may I have your support to fight climate change through a petition?</translation>
+        </message>
+        <message>
+            <source>Hello there, can you tell me about any birds that you saw on campus, through this survey? </source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello there, can you tell me about any birds that you saw on campus, through this survey? </translation>
         </message>
     </context>
     <context>
@@ -722,6 +785,14 @@ Of course, feel free to say no!</translation>
             <translation type="obsolete">Hello there, your one small sign of support, will add up to thousands of voices,
 </translation>
         </message>
+        <message>
+            <location filename="logical/behavior.xar" line="0"/>
+            <source>Hello there, your bird sightings hold huge power,
+</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hello there, your bird sightings hold huge power,
+</translation>
+        </message>
     </context>
     <context>
         <name>logical/behavior.xar:/Say</name>
@@ -735,6 +806,14 @@ Of course, feel free to say no!</translation>
 </source>
             <comment>Text</comment>
             <translation type="obsolete">kickstarting the global movement to secure our planet’s future!
+</translation>
+        </message>
+        <message>
+            <location filename="logical/behavior.xar" line="0"/>
+            <source> to help researchers to generate population trends and reservation effort! 
+</source>
+            <comment>Text</comment>
+            <translation type="unfinished"> to help researchers to generate population trends and reservation effort! 
 </translation>
         </message>
     </context>
@@ -758,6 +837,12 @@ Of course, feel free to say no!</translation>
             <source>You should feel proud of your decision to sign today!</source>
             <comment>Text</comment>
             <translation type="obsolete">You should feel proud of your decision to sign today!</translation>
+        </message>
+        <message>
+            <location filename="logical/behavior.xar" line="0"/>
+            <source>Share your observations through this survey now!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Share your observations through this survey now!</translation>
         </message>
     </context>
     <context>
