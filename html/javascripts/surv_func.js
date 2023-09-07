@@ -205,11 +205,12 @@ function postData()
 {
     
     var participantData = [
+        'logical',
         participant_ID,
         participant_resp,
         birbIdx,
-        birbTime,
-        'logical'
+        birbTime
+       
     ];
     
     var data_formatted = participantData.join(",");

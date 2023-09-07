@@ -1,0 +1,23 @@
+creditability,142258,TRUE,"['4', '5', '6']","['0', '2', '0']"
+creditability,142354,FALSE,[],[]
+creditability,142407,TRUE,[],[]
+creditability,144458,TRUE,['0'],['0']
+creditability,145259,TRUE,"['0', '3', '6']","['0', '0', '0']"
+creditability,153618,TRUE,"['0', '1', '4', '6']","['0', '0', '1', '2']"
+creditability,154240,TRUE,['0'],['0']
+creditability,154830,TRUE,[],[]
+creditability,154923,TRUE,['1'],['0']
+freedom,82732,TRUE,['4'],['0']
+freedom,85654,TRUE,"['0', '1', '2', '3']","['0', '0', '0', '0']"
+freedom,92604,TRUE,['0'],['0']
+freedom,93312,TRUE,['7'],['0']
+freedom,95418,TRUE,"['1', '2', '6']","['0', '0', '0']"
+freedom,101619,TRUE,['3'],['1']
+logical,151104,TRUE,['4'],['0']
+logical,153016,TRUE,"['0', '1', '3', '4', '5']","['0', '0', '0', '1', '1']"
+logical,153920,FALSE,[],[]
+logical,160318,TRUE,['5'],['5']
+logical,161404,TRUE,"['2', '3']","['0', '0']"
+logical,161607,TRUE,"['0', '5']","['0', '0']"
+logical,161929,TRUE,['2'],['0']
+logical,162241,TRUE,"['0', '1', '2', '6', '7']","['2', '0', '2', '4', '5']"

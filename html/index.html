@@ -21,7 +21,7 @@
             <div class="survey-group">
                  
                 <!-- Main screen with explanation & start button -->
-                 <div id="start" class="survey-box" data-show-dialog>
+                 <!-- <div id="start" class="survey-box" data-show-dialog>
                     <img src="styles/images/ybBird.png" alt="two birds" height="180">
                    
                     <h1 data-ignore >Share your avian encounters on Monash campus!</h1>
@@ -36,8 +36,27 @@
 
                     <button type="button" class="btn-navigate roundBtn" id="goBtn" onclick="resetBird();waitRestart(0);" data-next="1">GO</button>
             
-                </div>
+                </div> -->
                 
+                 <!-- small request screen (consistency) -->
+                <div id="start" class="survey-box request-box" data-show-dialog>
+                    <img src="styles/images/smiley.png" alt="smiley face" height="200">
+
+                    <h1 data-ignore >May I have a moment with you?</h1>
+                    <br>
+                
+                    <button type="button" class="btn-navigate yesBtn" onclick="recordResp('small_agree','false');resetToken();waitRestart(0);" data-next="1">Yes</button> 
+                    <button type="button" class="btn-navigate noBtn" onclick="recordResp('small_disagree','false');" data-next="1c">No</button>
+    
+                </div>
+
+                  <div id="1c" class="survey-box" data-show-dialog>
+                    
+                    <h1 data-animated data-auto-transition class="hidden">Alright, thank you!^run(animations/Stand/Gestures/Hey_3)</h1>
+                  
+                    <button type="button" class="btn-navigate hidden" data-next="start">Restart</button>
+                </div>
+
                 <!-- Bird sighting selection screen -->
                 <div id="1" class="survey-box" data-show-dialog>
                     
