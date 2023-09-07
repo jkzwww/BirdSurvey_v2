@@ -13,10 +13,10 @@ def read_csv_file(file_path):
 
 # storage file for participant response list
 storage_path = 'data_proc/data_record/response_list.csv'
+# remove old responses
+os.remove(storage_path)
 # data storage folder path
 data_path = 'data_proc\survey_raw_data'
-
-
 # data directories
 data_dirs = os.listdir(data_path)
 

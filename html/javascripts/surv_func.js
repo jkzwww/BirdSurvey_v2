@@ -106,9 +106,9 @@ function showBird()
     var options = [
         "This week",
         "This month",
-        "Last 3 months",
+        // "Last 3 months",
         "Last 6 months",
-        "Last 12 months",
+        // "Last 12 months",
         "A year and above"
     ];
 
