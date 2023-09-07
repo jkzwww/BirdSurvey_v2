@@ -23,6 +23,11 @@ function genID()
     participant_ID  = hours + minutes + seconds
 }
 
+var inqAns = ''
+function recordAns(answer)
+{
+    inqAns = answer
+}
 
 var participant_resp = false
 function recordReact(reaction)
@@ -209,8 +214,8 @@ function postData()
         participant_ID,
         participant_resp,
         birbIdx,
-        birbTime
-       
+        birbTime,
+        inqAns
     ];
     
     var data_formatted = participantData.join(",");

@@ -38,6 +38,7 @@ for file_idx in range(len(data_dirs)):
         resp_list = []
         bird_type = []
         bird_time = []
+        inquiry_ans = ''
 
         next_col = 3
         if(row[next_col] != ''):
@@ -47,16 +48,18 @@ for file_idx in range(len(data_dirs)):
                 col_data = row[next_col]
                 data_parts = col_data.split('_')
 
-                if(data_parts[0] == ''):
+                if(col_data == ''):
                     break
-                elif(data_parts[0] != 't'):
-                    bird_type.append(col_data)
+                elif(data_parts[0] == 'ans'):
+                    inquiry_ans = data_parts[1]
+                elif(data_parts[0] == 't'):
+                    bird_time.append(data_parts[1])                        
                 else:
-                    bird_time.append(data_parts[1])    
+                    bird_type.append(col_data)
 
                 next_col += 1
 
-        resp_list = [strategy,people_id,response,bird_type,bird_time]
+        resp_list = [strategy,people_id,response,bird_type,bird_time,inquiry_ans]
 
         with open(storage_path, 'a', newline='') as store_file:
             writer = csv.writer(store_file)
