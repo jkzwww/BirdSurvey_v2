@@ -2,8 +2,11 @@
 // import 'unfetch/polyfill';
 
 var participant_ID = 0
-const startBtn = document.querySelector("#goBtn");
-startBtn.addEventListener("click",genID);
+
+// const startBtn = document.querySelector("#goBtn");
+// startBtn.addEventListener("click",genID);
+
+// special strats
 
 
 // Generate unique id for record
@@ -210,7 +213,7 @@ function postData()
 {
     
     var participantData = [
-        'logical',
+        'task inquiry',
         participant_ID,
         participant_resp,
         birbIdx,

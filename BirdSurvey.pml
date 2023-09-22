@@ -7,6 +7,8 @@
         <BehaviorDescription name="behavior" src="freedom" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="creditability" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="logical" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="admonishment" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="inquiry" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
@@ -40,12 +42,7 @@
         <File name="wattlebird" src="html/styles/images/wattlebird.jpg" />
         <File name="ybBird" src="html/styles/images/ybBird.png" />
         <File name="loading_birds" src="html/loading_birds.jpg" />
-        <File name="bird_data_proc" src="data_proc/bird_data_proc.py" />
-        <File name="response_list" src="data_proc/data_record/response_list.csv" />
-        <File name="summ" src="data_proc/survey_raw_data/summ.csv" />
-        <File name="summ2" src="data_proc/survey_raw_data/summ2.csv" />
-        <File name="summ3" src="data_proc/survey_raw_data/summ3.csv" />
-        <File name="trial_resp_proc" src="data_proc/trial_resp_proc.py" />
+        <File name="smiley" src="html/styles/images/smiley.png" />
     </Resources>
     <Topics />
     <IgnoredPaths />

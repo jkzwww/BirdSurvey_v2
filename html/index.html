@@ -20,8 +20,67 @@
         <form method="post" autocomplete="off" novalidate>
             <div class="survey-group">
                  
+                <!-- small request screen (consistency) -->
+                <!-- <div id="start" class="survey-box" data-show-dialog>
+                    <img src="styles/images/smiley.png" alt="smiley face" height="200">
+
+                    <h1 data-ignore >May I have a moment with you?</h1>
+                    <br>
+                
+                    <button type="button" class="btn-navigate yesBtn" onclick="genID();recordAns('ans_yes');resetBird();waitRestart(0);" data-next="1">Yes</button> 
+                    <button type="button" class="btn-navigate noBtn" onclick="genID();recordAns('ans_no');resetBird();postData()" data-next="1c">No</button>
+    
+                </div>
+
+                <div id="1c" class="survey-box" data-show-dialog>
+                    
+                    <h1 data-animated data-auto-transition class="hidden">Alright, thank you!^run(animations/Stand/Gestures/Hey_3)</h1>
+                  
+                    <button type="button" class="btn-navigate hidden" data-next="start">Restart</button>
+                </div> -->
+                
+                <!-- inquiry screen (task & source-related) -->
+                <!-- <div id="start" class="survey-box request-box" data-show-dialog>
+                    <img src="styles/images/smiley.png" alt="smiley face" height="100"> -->
+
+                    <!-- source-related -->
+                    <!-- <h1 data-ignore >Do you know anyone who enjoys birdwatching?</h1> -->
+                    <!-- task-related -->
+                    <!-- <h1 data-ignore >Have you spotted any birds on campus today?</h1> -->
+                    
+                    <!-- <br>
+                
+                    <button type="button" class="btn-navigate yesBtn" onclick="genID();recordAns('ans_yes');resetBird();" data-next="1a">Yes</button> 
+                    <button type="button" class="btn-navigate noBtn" onclick="genID();recordAns('ans_no');resetBird();" data-next="1b">No</button>
+    
+                </div> -->
+
+                 <!-- yes response for inquiry -->
+                 <!-- <div id="1a" class="survey-box request-box">
+                   
+                    <h1 data-animated data-auto-transition class="hidden">Alright. Thanks for letting me know! ^run(animations/Stand/Gestures/Enthusiastic_3)</h1>
+                  
+                
+                    <button type="button" class="btn-navigate hidden" onclick="waitRestart(0);" data-next="1"></button>
+               
+                </div> -->
+
+                <!-- no response for inquiry -->
+                 <!-- <div id="1b" class="survey-box request-box"> -->
+                   
+                    <!-- source-related -->
+                    <!-- <h1 data-animated data-auto-transition class="hidden"> It's okay. Birdwatching is proven to be good for you physical and mental health, their contribution to bird research is also indispensible!  
+                         ^run(animations/Stand/Gestures/Explain_11)</h1> -->
+
+                    <!-- task related -->
+                    <!-- <h1 data-animated data-auto-transition class="hidden"> It's okay , we like to know any previous encounters too! ^run(animations/Stand/Gestures/Explain_11)</h1> -->
+
+                    <!-- <button type="button" class="btn-navigate hidden" onclick="waitRestart(0);" data-next="1"></button>
+               
+                </div>  -->
+
                 <!-- Main screen with explanation & start button -->
-                 <!-- <div id="start" class="survey-box" data-show-dialog>
+                <div id="start" class="survey-box" data-show-dialog> 
                     <img src="styles/images/ybBird.png" alt="two birds" height="180">
                    
                     <h1 data-ignore >Share your avian encounters on Monash campus!</h1>
@@ -36,31 +95,17 @@
 
                     <button type="button" class="btn-navigate roundBtn" id="goBtn" onclick="resetBird();waitRestart(0);" data-next="1">GO</button>
             
-                </div> -->
+                </div> 
                 
-                 <!-- small request screen (consistency) -->
-                <div id="start" class="survey-box request-box" data-show-dialog>
-                    <img src="styles/images/smiley.png" alt="smiley face" height="200">
-
-                    <h1 data-ignore >May I have a moment with you?</h1>
-                    <br>
-                
-                    <button type="button" class="btn-navigate yesBtn" onclick="recordAns('ans_yes');resetToken();waitRestart(0);" data-next="1">Yes</button> 
-                    <button type="button" class="btn-navigate noBtn" onclick="recordAns('ans_no');" data-next="1c">No</button>
-    
-                </div>
-
-                  <div id="1c" class="survey-box" data-show-dialog>
-                    
-                    <h1 data-animated data-auto-transition class="hidden">Alright, thank you!^run(animations/Stand/Gestures/Hey_3)</h1>
-                  
-                    <button type="button" class="btn-navigate hidden" data-next="start">Restart</button>
-                </div>
-
+                 
                 <!-- Bird sighting selection screen -->
                 <div id="1" class="survey-box" data-show-dialog>
                     
+                    <!-- consistency/inquiry -->
+                    <!-- <h1 data-animated class="hidden">Can you please join this bird sighting survey?  ^run(animations/Stand/Gestures/Wings_4)</h1> -->
+                    
                     <h1 data-animated class="hidden">Which birds have you seen on campus lately? ^run(animations/Stand/Gestures/Wings_4)</h1>
+                    
                     <h2>Select all the birds you have seen in Monash below: </h2> 
                     
                     <ul>
