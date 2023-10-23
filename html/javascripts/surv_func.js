@@ -3,8 +3,8 @@
 
 var participant_ID = 0
 
-// const startBtn = document.querySelector("#goBtn");
-// startBtn.addEventListener("click",genID);
+const startBtn = document.querySelector("#goBtn");
+startBtn.addEventListener("click",genID);
 
 // special strats
 
@@ -213,7 +213,7 @@ function postData()
 {
     
     var participantData = [
-        'task inquiry',
+        'neutral',
         participant_ID,
         participant_resp,
         birbIdx,

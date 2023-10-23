@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="birdsurvey-445d86" version="0.1.0">
+<package version="0.1.0" uuid="birdsurvey-445d86">
  <names>
   <name lang="en_US">Bird Survey v2</name>
  </names>

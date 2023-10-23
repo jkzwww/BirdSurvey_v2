@@ -26,7 +26,6 @@
         <File name="calc" src="html/javascripts/calc.js" />
         <File name="surv_func" src="html/javascripts/surv_func.js" />
         <File name="draftaes" src="html/styles/draftaes.css" />
-        <File name="bird_stats_vis" src="html/styles/images/bird_stats_vis.jpg" />
         <File name="bo2" src="html/styles/images/bo2.png" />
         <File name="bo_pusheen" src="html/styles/images/bo_pusheen.png" />
         <File name="cockatoo" src="html/styles/images/cockatoo.jpg" />
@@ -43,6 +42,7 @@
         <File name="ybBird" src="html/styles/images/ybBird.png" />
         <File name="loading_birds" src="html/loading_birds.jpg" />
         <File name="smiley" src="html/styles/images/smiley.png" />
+        <File name="bird_stats" src="html/styles/images/bird_stats.jpg" />
     </Resources>
     <Topics />
     <IgnoredPaths />
